@@ -1,0 +1,155 @@
+body{
+    background-color:black;
+}
+p,a {
+    color: aliceblue;
+}
+h1{
+    color: black;
+}
+p,h1{
+    text-align: center;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+
+}
+
+a {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+    padding: 5px 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a:hover{
+    color: rgb(17, 241, 17);
+}
+button{
+font-size: 1.5em;
+font-weight:bold ;
+padding: 10px 20px;
+border-radius: 15px;
+border: 1px solid rgb whitesmoke;
+box-shadow: 2px 2px 10 px;
+color: white;
+background-color:green ;
+text-align: center;
+align-items: baseline;
+}
+button:hover{
+    background-color:rgb(18, 73, 18) ;
+}
+#mis-canciones-fav{
+    text-align: center;
+    padding: 100px 0px;
+}
+#hero{
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+   height: 90vh;
+   background-image:linear-gradient(
+    0deg
+    rgb(0,0,0,0.5)
+    rgb(0,0,0,0.5)
+   );
+   background-image: url(../img/spotif.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center ;
+}
+  
+#hero button{
+    align-items: center;
+   
+}
+
+.carta:first-child{
+    background-image: url(../img/burhe.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+.carta:nth-child(2){
+   background-image: url(../img/snff.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   
+}
+.carta:nth-child(3){
+    background-image: url(../img/mns.jpg);
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+  
+}
+.logo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.00em;
+    color: rgb(44, 253, 44);
+}
+h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5em;
+    color: white;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 3.0em;
+}
+#mis-canciones-fav .carta{
+    padding: 50px;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 50px;
+}
+@media (min-width:720px) {
+    header{
+      flex-direction: row;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0 ;
+        padding-right: 20px;
+    }
+    #mis-canciones-fav{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px ;
+
+    }
+    #mis-canciones-fav .carta{
+        padding: 15px;
+
+    }
+    #mis-canciones-fav h3{
+        margin-top: 0 ;
+    }
+}
+ header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
